@@ -17,10 +17,10 @@ public class UserResistrationTest {
 		UserRegistration user = new UserRegistration();
 		// Regular Expression For First Name
 		String regex = "^[A-Z]{1}[A-Za-z]{2,}";
-		// Result is in true and false
-		boolean result = Pattern.matches(regex, user.inputMethod());
+
 		// print result
-		System.out.println("Your Last Name Is : " + result);
+		System.out.println("Your Last Name Is : " + Pattern.matches(regex, user.inputMethod()));
+		System.out.println("Your Last Name Is : " + Pattern.matches(regex, user.lastName()));
 
 	}
 
