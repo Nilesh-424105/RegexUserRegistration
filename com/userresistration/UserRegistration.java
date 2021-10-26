@@ -43,4 +43,16 @@ public class UserRegistration {
 
 	}
 
+	// Method For Mobile Number Validation
+	public String mobNumber() {
+
+		// Take Input From User
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Mobile Number: ");
+		// Assign User Input in Variable
+		String mobNumber = sc.nextLine();
+		// Return Mobile Number
+		return mobNumber;
+
+	}
 }
