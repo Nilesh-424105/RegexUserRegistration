@@ -30,4 +30,17 @@ public class UserRegistration {
 
 	}
 
+	// Method For Email Validation
+	public String email() {
+
+		// Take Input From User
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Email Address: ");
+		// Assign User Input in Variable
+		String email = sc.nextLine();
+		// Return Email
+		return email;
+
+	}
+
 }
