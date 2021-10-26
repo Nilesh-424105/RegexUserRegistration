@@ -55,4 +55,17 @@ public class UserRegistration {
 		return mobNumber;
 
 	}
+
+	// Method For Password Validation
+	public String password() {
+
+		// Take Input From User
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Password: ");
+		// Assign User Input in Variable
+		String password = sc.nextLine();
+		// Return Mobile Number
+		return password;
+
+	}
 }
