@@ -1,7 +1,7 @@
 package com.userresistration;
 
 /*
- * As a User need to enter a valid First Name
+ * As a User need to enter a valid Last Name
  */
 
 import java.util.regex.Matcher;
@@ -19,7 +19,7 @@ public class UserResistrationTest {
 		String regex = "^[A-Z]{1}[A-Za-z]{2,}";
 
 		// print result
-		System.out.println("Your Last Name Is : " + Pattern.matches(regex, user.inputMethod()));
+		System.out.println("Your First Name Is : " + Pattern.matches(regex, user.firstName()));
 		System.out.println("Your Last Name Is : " + Pattern.matches(regex, user.lastName()));
 
 	}

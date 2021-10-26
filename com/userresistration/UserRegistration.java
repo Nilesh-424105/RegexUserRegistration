@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class UserRegistration {
 
 	// Method For First Name Validation
-	public String inputMethod() {
+	public String firstName() {
 
 		// Take Input From User
 		Scanner sc = new Scanner(System.in);
